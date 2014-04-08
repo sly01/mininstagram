@@ -7,7 +7,7 @@
 
   $owner = $_SESSION["user"];
   $filename = $_FILES["files"]["name"][$f];
-  
+  $filename = str_replace(' ','',$filename);
 
   $conn=mysql_connect($db_adres,$db_user,$db_pass);
   if(!$conn){

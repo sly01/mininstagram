@@ -39,7 +39,9 @@ foreach($_FILES['files']['name'] as $f => $name) {
       }
     else
       {
-      move_uploaded_file($_FILES["files"]["tmp_name"][$f], $directory . $_FILES["files"]["name"][$f]);
+          $fname  = $_FILES["files"]["name"][$f];
+          $fname  = str_replace(" ","",$fname);
+      move_uploaded_file($_FILES["files"]["tmp_name"][$f], $directory . $fname);
       echo "Stored in: " . $directory . $_FILES["files"]["name"][$f];
       require "database.php";
       $sql = "INSERT INTO List (owner, filename)
