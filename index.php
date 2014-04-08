@@ -5,6 +5,16 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<title>Mini Instagram</title>
+<style>
+    body {
+        background-image: url("img/page-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left 20px center;
+    }
+
+
+</style>
 </head>
 <body>
 	<div class="container" style="padding:150px">
@@ -12,13 +22,13 @@
         <div class="span6 offset3">
 	<form class="form-horizontal" style="border:1px solid" action="login.php" method="POST">
   <div class="control-group">
-    <label class="control-label" for="inputEmail">Username</label>
+    <label class="control-label" for="inputEmail"><font color="white">Username</font></label>
     <div class="controls">
       <input type="text" id="inputEmail" placeholder="Username" name="username">
     </div>
   </div>
   <div class="control-group">
-    <label class="control-label" for="inputPassword">Password</label>
+    <label class="control-label" for="inputPassword"><font color="white"> Password</font></label>
     <div class="controls">
       <input type="password" id="inputPassword" placeholder="Password" name="password">
     </div>
