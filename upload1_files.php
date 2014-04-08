@@ -42,7 +42,7 @@ foreach($_FILES['files']['name'] as $f => $name) {
       move_uploaded_file($_FILES["files"]["tmp_name"][$f], $directory . $_FILES["files"]["name"][$f]);
       echo "Stored in: " . $directory . $_FILES["files"]["name"][$f];
       require "database.php";
-      $sql = "INSERT INTO list (owner, filename)
+      $sql = "INSERT INTO List (owner, filename)
             VALUES ('$owner','$filename')";
 
       mysql_query($sql, $conn);
