@@ -15,6 +15,7 @@ require 'adminCheck.php';
 	<a href="filesUpload.html">Dosya ekleme</a><br/>
     <a href="kullaniciekle.html">Add User</a><br/>
     <a href="kullaniciGoster.php">Show Users</a><br/>
+    <a href="showPhotos.php">Show Photos</a><br/>
     <a href="logout.php">Logout</a>
 </body>
 </html>

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7278faa6-9c10-4e39-9b54-a6ad6c28875d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.php" afterPath="$PROJECT_DIR$/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/showlist.php" afterPath="$PROJECT_DIR$/showlist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload1_files.php" afterPath="$PROJECT_DIR$/upload1_files.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mininstagram.iws" />
@@ -43,7 +38,7 @@
       <file leaf-file-name="upload1_files.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload1_files.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="1125">
+            <state line="5" column="0" selection-start="42" selection-end="94" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1125">
               <folding>
                 <marker date="1396998413000" expanded="true" signature="1545:1621" placeholder="INSERT INTO ..." />
               </folding>
@@ -51,10 +46,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="53" selection-start="592" selection-end="592" vertical-scroll-proportion="0.4040404" vertical-offset="0" max-vertical-offset="594">
+            <state line="17" column="27" selection-start="620" selection-end="620" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showPhotos.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/showPhotos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="51" selection-start="423" selection-end="423" vertical-scroll-proportion="0.46232876" vertical-offset="0" max-vertical-offset="584">
+              <folding>
+                <marker date="1397003053000" expanded="true" signature="160:185" placeholder="Select filen..List..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ceng310.List" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/25cd4b7a/15c2d1d5-4670-4573-ab26-0413b1a47995/ceng310..List">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -78,18 +96,6 @@
                 <marker date="1396990992000" expanded="true" signature="215:272" placeholder="INSERT INTO ..." />
                 <marker date="1396990992000" expanded="true" signature="215:285" placeholder="INSERT INTO ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ceng310.Kullanici" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/25cd4b7a/15c2d1d5-4670-4573-ab26-0413b1a47995/ceng310..Kullanici">
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -145,7 +151,9 @@
         <option value="$PROJECT_DIR$/showlist.php" />
         <option value="$PROJECT_DIR$/database.php" />
         <option value="$PROJECT_DIR$/upload1_files.php" />
+        <option value="$PROJECT_DIR$/showPhotos.xhtml" />
         <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/showPhotos.php" />
       </list>
     </option>
   </component>
@@ -208,6 +216,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Xhtml" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -295,16 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/25cd4b7a/15c2d1d5-4670-4573-ab26-0413b1a47995/ceng310..List">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/25cd4b7a/15c2d1d5-4670-4573-ab26-0413b1a47995/ceng310..User">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
@@ -319,7 +318,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="233" selection-end="233" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="420">
           <folding>
-            <element signature="e#6#86#0" expanded="true" />
+            <element signature="e#6#86#0" expanded="false" />
             <marker date="1396991372000" expanded="true" signature="-1:-1" placeholder="SELECT * fro..Kullanici..." />
           </folding>
         </state>
@@ -383,15 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/showlist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="345">
-          <folding>
-            <marker date="1396996241000" expanded="true" signature="51:69" placeholder="SELECT * FRO..List..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filesUpload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
@@ -420,19 +410,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="620" selection-end="620" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/25cd4b7a/15c2d1d5-4670-4573-ab26-0413b1a47995/ceng310..List">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/showlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="223" selection-end="223" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="345">
+          <folding>
+            <marker date="1396996241000" expanded="true" signature="51:69" placeholder="SELECT * FRO..List..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/upload1_files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="280" selection-end="280" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="1125">
+        <state line="5" column="0" selection-start="42" selection-end="94" vertical-scroll-proportion="-1.5" vertical-offset="0" max-vertical-offset="1125">
           <folding>
             <marker date="1396998413000" expanded="true" signature="1545:1621" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin.php">
+    <entry file="file://$PROJECT_DIR$/showPhotos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="53" selection-start="592" selection-end="592" vertical-scroll-proportion="0.4040404" vertical-offset="0" max-vertical-offset="594">
-          <folding />
+        <state line="18" column="51" selection-start="423" selection-end="423" vertical-scroll-proportion="0.46232876" vertical-offset="0" max-vertical-offset="584">
+          <folding>
+            <marker date="1397003053000" expanded="true" signature="160:185" placeholder="Select filen..List..." />
+          </folding>
         </state>
       </provider>
     </entry>
